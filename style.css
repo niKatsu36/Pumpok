@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,400&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: #81C784;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    display:block
+}
+footer {
+    display: block;
+    background: #0f120f;
+    margin: 0;
+    padding: 0;
+}
+img.tel {
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.tel:hover {
+    content: url(pic/telegram2.png);
+}
+img.git {
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.inst {
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.inst:hover {
+    content: url(pic/instagram2.png);
+}
+img.dis {
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.dis:hover {
+    content: url(pic/discord2.png);
+}
+img.face {
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.face:hover {
+    content: url(pic/facebook2.png);
+}
+img.linked {
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.linked:hover {
+    content: url(pic/linkedin2.png);
+}
+img.solo {
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.academy {    
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.academy:hover {
+    content: url(pic/htmlacademy2.png);
+}
+img.spot {    
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.spot:hover {
+    content: url(pic/spotify2.png);
+}
+img.twitch {    
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.twitch:hover {
+    content: url(pic/twitch2.png);
+}
+img.sound {    
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.sound:hover {
+    content: url(pic/soundcloud2.png);
+}
+img.yt {    
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.yt:hover {
+    content: url(pic/youtube2.png);
+}
