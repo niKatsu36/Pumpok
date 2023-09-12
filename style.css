@@ -39,59 +39,6 @@ img.dis {
 img.dis:hover {
     content: url(pic/discord2.png);
 }
-img.face {
-    padding: 2%;
-    width: 30px;
-    height: auto;
-}
-img.face:hover {
-    content: url(pic/facebook2.png);
-}
-img.linked {
-    padding: 2%;
-    width: 30px;
-    height: auto;
-}
-img.linked:hover {
-    content: url(pic/linkedin2.png);
-}
-img.solo {
-    padding: 2%;
-    width: 30px;
-    height: auto;
-}
-img.academy {    
-    padding: 2%;
-    width: 30px;
-    height: auto;
-}
-img.academy:hover {
-    content: url(pic/htmlacademy2.png);
-}
-img.spot {    
-    padding: 2%;
-    width: 30px;
-    height: auto;
-}
-img.spot:hover {
-    content: url(pic/spotify2.png);
-}
-img.twitch {    
-    padding: 2%;
-    width: 30px;
-    height: auto;
-}
-img.twitch:hover {
-    content: url(pic/twitch2.png);
-}
-img.sound {    
-    padding: 2%;
-    width: 30px;
-    height: auto;
-}
-img.sound:hover {
-    content: url(pic/soundcloud2.png);
-}
 img.yt {    
     padding: 2%;
     width: 30px;
