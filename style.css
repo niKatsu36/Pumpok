@@ -1,13 +1,46 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,400&display=swap');
+@font-face {
+    font-family: Pumpoksans;
+    src: url("Pumpoksans.otf") format("opentype");
+}
 html {
     scroll-behavior: smooth;
 }
 body {
-    background: #49b1de;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    background-image: url('pic/back.jpg');
+    background-repeat: no-repeat;
+    background-size:auto;
+    font-family: Pumpoksans;
+    font-size: 30px;
     margin: 0;
-    display:block
+    display: block;
+}
+header {
+    position: relative;
+}
+.welcome {
+    position: relative;
+    margin-left: 600px;
+    margin-top: 300px;
+    top: 0;
+    left: 0;
+    font-size: 56px;
+    letter-spacing: 10px;
+    color: beige;
+}
+main {
+    position: relative;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+}
+ul.links {
+    margin-left: 50%;
+    margin-top: 10%;
+}
+ul.links li {
+    display: inline;
+    padding: 3px;
 }
 footer {
     display: block;
@@ -17,33 +50,63 @@ footer {
 }
 img.tel {
     padding: 2%;
-    width: 30px;
+    width: 50px;
     height: auto;
-}
-img.tel:hover {
-    content: url(pic/telegram2.png);
 }
 img.inst {
     padding: 2%;
-    width: 30px;
+    width: 50px;
     height: auto;
-}
-img.inst:hover {
-    content: url(pic/instagram2.png);
 }
 img.dis {
     padding: 2%;
-    width: 30px;
+    width: 55px;
     height: auto;
 }
-img.dis:hover {
-    content: url(pic/discord2.png);
+img.vk {
+    padding: 2%;
+    width: 65px;
+    height: auto;
 }
 img.yt {    
     padding: 2%;
-    width: 30px;
+    width: 55px;
     height: auto;
 }
-img.yt:hover {
-    content: url(pic/youtube2.png);
+img.MK {
+    padding: 2%;
+    width: 70px;
+    height: auto;
+}
+.posts1 {
+    margin-top: 15%;
+    margin-left: 35%;
+}
+.about h3 {
+    margin-top: 8%;
+    margin-left: 25%;
+}
+.about p {
+    margin-left: 5%;
+}
+a{
+    color: orange;
+}
+.about img {
+    margin-right: 15%;
+    width: 10%;
+    transform: scale(-1, 1);
+    float: right;
+}
+.boosty img {
+    margin-top: 25%;
+    width: 15%;
+    margin-left: 25%;
+}
+.boosty p {
+    float: right;
+    margin-top: 30%;
+}
+footer {
+    margin-top: 20%;
 }
